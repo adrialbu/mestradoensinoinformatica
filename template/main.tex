@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage{fontspec}
+\usepackage[acronym]{glossaries}
+\makeglossaries
+
+\newacronym{cpu}{CPU}{Central Processing Unit}
+
+\begin{document}
+
+A \gls{cpu} é importante.
+
+\printglossary[type=\acronymtype, title={Acrónimos}]
+
+\end{document}
