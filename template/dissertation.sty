@@ -6,7 +6,17 @@
 \usepackage{adjustbox}
 \usepackage{titling}
 \usepackage[hidelinks]{hyperref}
-\usepackage{natbib}
+%\usepackage{natbib}
+%acrescentado em apa7
+\usepackage{csquotes}
+\usepackage[
+  backend=biber,
+  style=apa,
+  sortcites=true,
+  sorting=nyt
+]{biblatex}
+\DeclareLanguageMapping{portuguese}{portuguese-apa}
+\addbibresource{dissertation.bib}
 \usepackage{afterpage}
 \usepackage{datetime}
 \usepackage{csquotes}
